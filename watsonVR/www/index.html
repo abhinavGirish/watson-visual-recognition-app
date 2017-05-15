@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<!--
+	  Customize this policy to fit your own app's needs. For more guidance, see:
+	      https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+	  Some notes:
+	      * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+	      * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+	      * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+	          * Enable inline JS: add 'unsafe-inline' to default-src
+        NOTE - utilized tutorial(s)from https://www.raymondcamden.com/2015/02/06/using-the-new-bluemix-visual-recognition-service-in-cordova,
+        https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-camera/, https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/application-development/sdk/cordova/ with modifications
+
+
+        -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">  
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+
+	<!-- Uncomment the following line if you are migrating an app from Legacy to MFP Cordova -->
+    <!--  <link rel="stylesheet" type="text/css" href="plugins/cordova-plugin-mfp/worklight/worklight.css" > -->
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+    <!-- load script with wlCommonInit defined before loading cordova.js -->
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+
+    <title>Prototype app - Watson Visual Recognition</title>
+  </head>
+  <body>
+    <header>
+      <h2> Visual Recognition App (Prototype)</h2>
+      <img src="img/prolifics-logo.png" height="50" width="200">
+    </header>
+
+    <button type="button" id="cameraButton">Take Picture</button>
+  
+     <p id="info">
+     </p>
+     
+ 
+    <div id="form" class="statusblock">      
+
+      <div id="mobilefirst" class="blink">
+        <p class="version_label">App Version:<span id="app_version">1.0.0</span></p>
+        <p class="label"> Machine type: </p>
+        <input type="text" id="mType" name="firstname"/>
+        <p class="label"> Room Number/Location: </p>
+        <input type="text" id="location" name="firstname"/>
+        <p class="label"> Machine/Equipment ID: </p>
+        <input type="text" id="mID" name="firstname"/>
+        <p class="label"> Date/Timestamp: </p>
+        <input type="text" id="timestamp" name="firstname"/>
+        <p class="label"> Summary of Incident: </p>
+        <input type="text" id="summary" name="firstname"/>
+        <button type="button" id="submit">SUBMIT</button>
+      </div>
+    </div>
+    <img id="myImage" width="128" height="128">
+    
+   
+  </body>
+</html>
