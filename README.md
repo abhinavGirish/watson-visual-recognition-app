@@ -3,7 +3,7 @@ I have been able to create an app that can take a picture and use the IBM Watson
 to identify a picture once it has been taken with a camera. It comes up with names of everyday objects that could be in the picture
 and prefills part of an input form for a help desk ticket.<br />
 
-How it works:
+How it works:<br />
 •	Background – utilizes framework for hybrid mobile application development called Cordova – 
 enables you to develop apps for Android/iOS platforms using Javscript/CSS/HTML5; utilizes IBM MobileFirst framework – 
 can deploy in any mobile setting (iOS, android), can update app in realtime, server can get services from backend i.e. access from database) <br />
@@ -13,7 +13,7 @@ for this, you need to register for service credentials, from which you get your 
 •	There are various names the default classifier comes up with, along with a score on a scale of 0 to 1; The first field of the form is filled <br />
 
 
-Problems encountered:
+Problems encountered: <br />
 
 •	Installation of the MobileFirst framework – kept trying to fetch file(s) that didn’t exist <br />
 •	Installation of the Ionic framework – problems regarding having the correct permissions as well as the location of Node.js; had to look up online forums to solve issue <br />
@@ -21,7 +21,7 @@ Problems encountered:
 •	Weird problems with camera not working – resolved while activating the MobileFirst local server <br />
 
 
-Work to be done/Suggestions for improvements:
+Work to be done/Suggestions for improvements: <br />
 •	Redesign the user interface – input fields and buttons <br />
 •	Incorporate the Ionic framework for a more slick design (?) <br />
 •	Be able to use the data to populate parts of an input form <br />
