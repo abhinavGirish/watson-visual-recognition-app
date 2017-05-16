@@ -1,15 +1,14 @@
 # watson-visual-recognition-app
-basic hybrid mobile app that takes a picture, recognizes an object and fills elements of a form
-Thus far, I have been able to create an app that can take a picture and use the IBM Watson Visual Recognition service
+I have been able to create an app that can take a picture and use the IBM Watson Visual Recognition service
 to identify a picture once it has been taken with a camera. It comes up with names of everyday objects that could be in the picture
-and prefills part of an input form for a help desk ticket.
+and prefills part of an input form for a help desk ticket.__
 
 How it works:
 •	Background – utilizes framework for hybrid mobile application development called Cordova – 
 enables you to develop apps for Android/iOS platforms using Javscript/CSS/HTML5; utilizes IBM MobileFirst framework – 
 can deploy in any mobile setting (iOS, android), can update app in realtime, server can get services from backend i.e. access from database)
-•	when you run the app, there’s a button that allows the user to access the camera (using a cordova plugin – used to add functionalities from javascript)
-•	 picture is taken and embedded in the background, then the IBM Watson Recognition service uses its default classifier to recognize the image –
+•	when you run the app, there’s a button that allows the user to access the camera (using a cordova plugin – used to add functionalities from javascript)__
+•	 picture is taken and embedded in the background, then the IBM Watson Recognition service uses its default classifier to recognize the image –__
 for this, you need to register for service credentials, from which you get your API key – this is used in the code to connect to the service via Bluemix
 •	There are various names the default classifier comes up with, along with a score on a scale of 0 to 1; The first field of the form is filled
 
