@@ -29,5 +29,5 @@ Work to be done/Suggestions for improvements: <br />
 
 
 
-Other notes:
+Other notes: <br />
 •	to run the MobileFirst server, go to the MobileFirst-8.0.0.0 folder and then type in ‘sh run.sh’ <br />
