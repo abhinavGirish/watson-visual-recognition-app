@@ -1,5 +1,5 @@
 # watson-visual-recognition-app
-<b> Note: I worked on this as a project for Prolifics under the guidance of Mr. Minesh Manilal (Head of Digital Experience) and Mr. Haris Vohra (Consultant) - please do not copy or distribute code </b>
+<b> Note: I worked on this as a project for Prolifics under the guidance of Mr. Minesh Manilal (Head of Digital Experience) and Mr. Haris Vohra (Consultant) - please do not copy or distribute code </b> <br /> <br />
 I have been able to create an app that can take a picture and use the IBM Watson Visual Recognition service
 to identify a picture once it has been taken with a camera. It comes up with names of everyday objects that could be in the picture
 and prefills part of an input form for a help desk ticket.<br />
