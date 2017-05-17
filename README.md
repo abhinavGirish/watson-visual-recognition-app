@@ -10,4 +10,4 @@ How it works: <br />
 •	There are various objects the default classifier comes up with for selection by user, along with a score on a scale of 0 to 1 for the closeness of the stored image to the actual object in terms of recognition; the key fields of the form is auto filled once the selection is confirmed <br />
 
 Architecture Diagram <br /> <br />
-(img coming soon)
+![alt text](https://github.com/abhinavGirish/watson-visual-recognition-app/blob/master/diagram.png)
